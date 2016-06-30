@@ -1,0 +1,29 @@
+.quiz-item {
+	margin-top: 10px;
+	position: absolute;
+	width:90%;
+	height: 80%;
+	margin-left:3.333%;
+	background-color: white;
+	z-index: 500;
+	padding: 1%;
+}
+
+.quiz-item>hr {
+	width: 100%
+}
+
+.quiz-item>p, .quiz-item-content>p {
+	font-size: 15px;
+}
+
+.quiz-item-submit {
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	width: 98%;
+	background-color: green;
+	color: white;
+	margin-left: 0%;
+	cursor: pointer;
+}
